@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Contacto</title>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 <body>
-    <h1>Formulario de Contacto</h1>
     <form id="contact-form">
         <label for="name">Nombre:</label>
         <input type="text" id="name" name="from_name" required><br>
@@ -18,6 +16,10 @@
         <button type="submit">Enviar</button>
     </form>
 
+    <!-- Incluye el CDN de EmailJS -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- Incluye tu script JavaScript -->
     <script src="form.js"></script>
 </body>
 </html>
+
